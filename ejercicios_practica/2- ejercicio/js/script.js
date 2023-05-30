@@ -17,3 +17,11 @@ Obtener todos los botones utilizando la clase "btn",
 luego a todos los botones agregar la clase "agua"
 
 */
+
+let boton1 = document.getElementById("boton1") /*console.log(boton1)*/
+let boton2 = document.getElementById("boton2") /*console.log(boton2)*/
+let boton3 = document.getElementById("boton3") /*console.log(boton3)*/
+
+boton1.textContent = "PEGAR"
+boton2.textContent = "COPIAR"
+boton3.textContent = "CORTAR"
